@@ -32,7 +32,7 @@ body {
 .links {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 20px;
 }
 
 .container2 {
@@ -74,9 +74,13 @@ h4 {
 }
 
 .title-img {
-    height: 220px;
-    width: 450px;
-    background-color: grey;
+    height: auto;
+    max-width: 100%;
+}
+
+.odin {
+    max-width: 450px;
+    height: auto;
 }
 
 ul {
@@ -111,9 +115,12 @@ a {
 .box {
     height: 150px;
     width: 150px;
-    border: solid;
-    border-width: 4px;
     border-color: #3882f6;
+}
+
+.myth {
+    width: 150px;
+    max-height: 150px;
     border-radius: 10px;
 }
 
@@ -153,9 +160,9 @@ a {
 }
 
 .section4-box {
-    margin: 100px 200px;
+    margin: 100px 30px;
     padding: 50px 100px;
-    width: 1500px;
+    width: 70%;
     color: white;
     border-radius: 15px;
     display: flex;
